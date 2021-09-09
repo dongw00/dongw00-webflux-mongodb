@@ -1,6 +1,4 @@
-package com.dongw00.api.webfluxmongo.quiz.domain;
-
-import lombok.val;
+package com.dongw00.api.webfluxmongo.domain;
 
 public enum Factor {
     MINIMUM, MAXIMUM;

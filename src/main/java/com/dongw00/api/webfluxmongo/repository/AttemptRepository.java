@@ -1,6 +1,6 @@
-package com.dongw00.api.webfluxmongo.quiz.repository;
+package com.dongw00.api.webfluxmongo.repository;
 
-import com.dongw00.api.webfluxmongo.quiz.domain.Attempt;
+import com.dongw00.api.webfluxmongo.domain.Attempt;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import org.springframework.stereotype.Repository;
 import reactor.core.publisher.Flux;

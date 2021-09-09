@@ -1,4 +1,4 @@
-package com.dongw00.api.webfluxmongo.quiz.domain;
+package com.dongw00.api.webfluxmongo.domain;
 
 import java.io.Serializable;
 import lombok.EqualsAndHashCode;
@@ -8,15 +8,18 @@ import lombok.ToString;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collation = "users")
 @Getter
-@ToString
 @RequiredArgsConstructor
+@Document(collation = "attempts")
 @EqualsAndHashCode
-public class User implements Serializable {
+@ToString
+public class Attempt implements Serializable {
 
     @Id
-    private final String userId;
+    private long id;
 
-    private final String alias;
+    private final User user;
+    private final Quiz quiz;
+    private final int resultAttempt;
+    private final boolean correct;
 }

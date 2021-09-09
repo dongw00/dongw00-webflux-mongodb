@@ -1,6 +1,6 @@
-package com.dongw00.api.webfluxmongo.quiz.service;
+package com.dongw00.api.webfluxmongo.service;
 
-import com.dongw00.api.webfluxmongo.quiz.domain.Factor;
+import com.dongw00.api.webfluxmongo.domain.Factor;
 import java.util.Random;
 import java.util.function.Function;
 import org.springframework.stereotype.Service;

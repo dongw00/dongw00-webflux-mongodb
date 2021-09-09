@@ -1,4 +1,4 @@
-package com.dongw00.api.webfluxmongo.quiz.service;
+package com.dongw00.api.webfluxmongo.service;
 
 public interface GeneratorService {
 
